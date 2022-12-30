@@ -1,0 +1,25 @@
+/* Write a CSS mastersheet to rival w3.css */
+
+/*Global*/
+body {
+    color: #ffffff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    border: 1px solid green;
+    margin-bottom: 2em;
+    width: 100%;
+    background-color: black;
+}
