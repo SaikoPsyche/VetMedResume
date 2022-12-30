@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://www.imdmann.me/static/Forest-Background.jpeg") ;
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+.w3-sidebar {
+    width: 120px;background: #222;
+}
+
+.text-box {
+    background-color: rgba(000, 000, 000, .75);
+}
+
+.margin {
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+

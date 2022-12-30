@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    line-height: 1.618;
+    color: #FFFFFF;
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    display: block;
+    font-size: 1em;
+    margin: 1em 1em 0.55em 0;
+    font-weight: bold;
+}
+
+.center {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 2.5in;
+}
+
+.top-center {
+    position: absolute;
+    top: 2in;
+}

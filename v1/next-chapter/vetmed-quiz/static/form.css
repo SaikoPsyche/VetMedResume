@@ -1,0 +1,123 @@
+p, label {
+    margin: 5px;
+}
+
+.row-col {
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #7030a0;
+    background-color: #7030a0;
+    width: 200px
+}
+
+body{
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    line-height: 1.618;
+    color: #625c58;
+    background-color: #5c1e6f;
+    background: url(https://inwoodanimalclinic.com/wp-content/themes/inwoodanimalclinic/images/background.jpg) top center #fff;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+.header {
+    display: block;
+    font-size: 1em;
+    margin: 1em 1em 0.55em 0;
+    font-weight: bold;
+}
+
+/* Divs */
+#submit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.struct-div {
+    border-top: 1px dashed #7030a0;
+}
+
+div:not(.not) {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+    max-width: 8.3in;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#results {
+    padding-bottom: 10px;
+}
+
+.question{
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+    background-color: #7030a0;
+    color: #ffffff;
+}
+
+.answers {
+    display: flex;
+    margin: 1px auto 12px auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+#quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#name-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.button:hover{
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: 2px solid #7030a0;
+    transition-duration: 0.3s;
+    box-shadow: 0 12px 16px  rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    padding: 12px 28px;
+    color: #ffffff;
+    border: 3px solid #4CAF50;
+    background-color: #7030a0;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+#button {
+    margin-left: 10px;
+}
+
+/* Global */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
