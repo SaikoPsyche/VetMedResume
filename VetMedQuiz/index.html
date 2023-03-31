@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="djmann">
+        <title>VetMed Quiz</title>
+        <link rel="stylesheet" href="static/form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+    <!--    <nav>
+            <a href="https://www.imdmann.me/vetmed-quiz/index.html" class="button">HOME</a>
+            <a href="https://www.imdmann.me/vetmed-quiz/vetmed-quiz-setup.html" class="button">Profile</a>
+            <a href="https://www.imdmann.me/vetmed-quiz/vetmed-quiz.html" class="button">Quiz</a>   -->
+        </nav>
+    <!--Header-->    
+        <header >
+            <h1 id="title" class="center">VetMed Quiz</h1>
+            <h3 id="description" class="center">A brief introductory quiz about the veterinary field</h3>
+        </header>
+    <!--Main Content-->
+        <!--Get User's name-->    
+        <div class="center not" id="name">
+            <h3 class="question no"> Please enter your name below!</h3> 
+            <label for="userName" id="name-label" class="answer">My name is
+            <i class="fas fa-shield-dog fa-beat"></i><input type="text" id="username" class="answer"><i class="fas fa-shield-cat fa-beat"></i>
+            </label>
+        </div>
+    <!--Quiz-->
+        <br>    
+        <div id="quiz" class="not"></div>
+        
+    <!--Submit button-->    
+        <div id="btn-div" class="center not">
+            <button id="submit"  class="button">SUBMIT</button>
+        </div>
+    <!--Results-->    
+        <div id="results" class="center not"></div>
+    <!--JS-->    
+        <script src="vetmed-quiz.js"></script>
+    <!--End Body-->    
+    </body>
+</html>

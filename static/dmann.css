@@ -1,0 +1,60 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #000000, center, cover, url("https://www.imdmann.me/static/Forest-Background.jpeg"), no-repeat;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+.w3-sidebar {
+    width: 120px;background: #222;
+}
+
+.text-box {
+    background-color: rgb(000, 000, 000); 
+    background-color: rgba(000, 000, 000, .75);
+}
+
+.margin {
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+}
+
+/* Buttons */
+.button:hover{
+    background-color: black;
+    color: #ffffff;
+    border: 2px solid green;
+    transition-duration: 0.3s;
+    box-shadow: 0 12px 16px  rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    padding: 12px 28px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    background-color: green;
+    border-radius: 18px;
+    cursor: pointer;
+}
