@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My Online Resume</title>
     <meta charset="UTF-8">
@@ -8,11 +8,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Courier-New", monospace}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    
+    body {
+  background-image: url('https://next.imdmann.me/static/abstract-the-matrix-wallpaper-preview.jpg?bypass-cache=72757400');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+
+    </style>
   </head>
-<body>
+<body class="w3-black">
+  
+
 <!-- Navbar -->
   <div id="myNavbar">
     <nav class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-mobile">
+      <!--<a href="https://www.imdmann/index.html" class="w3-bar-item w3-button" style="width: 20% !important">HOME</a>-->
       <a href="https://next.imdmann.me/index.html" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
       <a href="https://next.imdmann.me/about.html" class="w3-bar-item w3-button" style="width:20% !important">ABOUT</a>
       <a href="https://next.imdmann.me/goals.html" class="w3-bar-item w3-button" style="width:20% !important">GOALS</a>
@@ -22,14 +43,14 @@
   </div>
 
 <!-- Page Content -->
-<div class="padding_large" id="next_chapter">
+<div class="w3-padding-large" id="next_chapter">
   <!-- Header/Home -->
-  <header class="w3-center" id="next_chapter">
-    <img class="display_img" src="https://next.imdmann.me/static/TechLogo.jpg" alt="Dis Mann Logo">
-    <h1 class="title">Console.Log("The start of something new");</h1>
+  <header class="w3-container w3-padding-32 w3-center" id="next_chapter">
+    <img style="width: 35vw; height: auto" src="https://next.imdmann.me/static/TechLogo.jpg" alt="Dis Mann Logo">
+    <h1 class="title">Console.WriteLine("The start of something new");</h1>
   </header>
-</div>
 <!-- END PAGE CONTENT -->
+</div>
 
 <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
 <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge center">
